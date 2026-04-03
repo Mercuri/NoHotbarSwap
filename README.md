@@ -1,25 +1,71 @@
+# No Hotbar Swap
 
-Installation information
-=======
+A small, focused Minecraft mod that disables accidental number-key hotbar swapping.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## ✨ What it does
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+Prevents the player from unintentionally switching hotbar slots—simple as that.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+No extra fluff—just a targeted fix for an annoying problem.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+## 🎯 Why this exists
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+If you've ever:
+
+* Accidentally shoved cobblestone into the slot your sword usually goes
+* Fat-fingered a number key at the worst possible moment
+* Thought, "Why can't I disable this vanilla feature?"
+
+Then this mod might be for you.
+
+## ⚙️ Features
+
+* Disables number-key hotbar slot switching
+* Optional toggle via config
+* Modifier key support to temporarily allow swapping
+* Lightweight and minimal
+* No gameplay changes beyond input handling
+
+## 🧩 Compatibility
+
+* Built using Architectury
+* Supports NeoForge and Fabric
+
+> ⚠️ Make sure you're using the correct version for your loader and Minecraft version.
+
+## 📦 Installation
+
+1. Download the appropriate `.jar` file for your platform
+2. Drop it into your `mods` folder
+3. Launch the game
+
+## 🛠️ Configuration
+
+Simple and to the point:
+
+* Enable or disable number-key hotbar swapping
+* Use a modifier key to bypass the restriction when needed
+
+## 🐛 Issues & Feedback
+
+If something breaks or behaves weirdly, feel free to open an issue.
+
+Include:
+
+* Minecraft version
+* Mod loader (NeoForge/Fabric/etc.)
+* What you expected vs what happened
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+You're free to use, modify, and distribute it—just include the original license.
+
+## 👤 Author
+
+Mercuri
+
+---
+
+*Small mod, big quality-of-life win.*

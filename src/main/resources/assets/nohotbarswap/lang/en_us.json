@@ -1,7 +1,0 @@
-{
-  "key.categories.nohotbarswap": "No Hotbar Swap",
-  "key.nohotbarswap.allow_swap": "Allow Hotbar Swap Modifier",
-  "key.nohotbarswap.toggle": "Toggle Hotbar Swap",
-  "nohotbarswap.configuration.enableSwapPrevention": "Disable Number-Key Hotbar Swapping",
-  "nohotbarswap.configuration.enableSwapPrevention.tooltip": "Prevents hotbar swapping when pressing number keys in inventories."
-}

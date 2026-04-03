@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "nohotbarswap",
+  "version": "${version}",
+  "name": "No Hotbar Swap",
+  "description": "Prevent accidental hotbar swapping when pressing number keys in inventory!",
+  "authors": [
+    "Mercuri"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/nohotbarswap/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mercuri.nohotbarswap.fabric.FabricMod"
+    ],
+    "client": [
+      "com.mercuri.nohotbarswap.fabric.client.FabricClientMod"
+    ],
+    "modmenu": [
+      "com.mercuri.nohotbarswap.fabric.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "nohotbarswap.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "cloth-config": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {}
+    }
+  }
+}
