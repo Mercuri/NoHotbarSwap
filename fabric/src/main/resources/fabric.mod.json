@@ -8,21 +8,18 @@
     "Mercuri"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/mercuri/nohotbarswap",
+    "sources": "https://github.com/mercuri/nohotbarswap"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/nohotbarswap/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "com.mercuri.nohotbarswap.fabric.FabricMod"
     ],
     "client": [
       "com.mercuri.nohotbarswap.fabric.client.FabricClientMod"
-    ],
-    "modmenu": [
-      "com.mercuri.nohotbarswap.fabric.ModMenuIntegration"
     ]
   },
   "mixins": [
@@ -37,10 +34,5 @@
   "suggests": {
     "modmenu": "*",
     "cloth-config": "*"
-  },
-  "custom": {
-    "modmenu": {
-      "links": {}
-    }
   }
 }

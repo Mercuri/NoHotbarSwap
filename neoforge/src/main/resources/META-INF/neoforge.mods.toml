@@ -1,7 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-#issueTrackerURL = ""
-license = "All Rights Reserved"
+issueTrackerURL = "https://github.com/Mercuri/NoHotbarSwap/issues"
+license = "MIT"
 
 [[mods]]
 modId = "nohotbarswap"
@@ -11,18 +11,18 @@ authors = "Mercuri"
 description = '''
 Prevent accidental hotbar swapping when pressing number keys in inventory!
 '''
-#logoFile = ""
+logoFile = "assets/nohotbarswap/icon.png"
 
 [[dependencies.nohotbarswap]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21.1,)"
+versionRange = "[21.1,21.2)"
 ordering = "NONE"
-side = "BOTH"
+side = "CLIENT"
 
 [[dependencies.nohotbarswap]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21.1,)"
+versionRange = "[1.21.1,1.21.2)"
 ordering = "NONE"
-side = "BOTH"
+side = "CLIENT"

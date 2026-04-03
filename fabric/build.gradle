@@ -43,6 +43,8 @@ processResources {
     filesMatching('fabric.mod.json') {
         expand version: inputs.properties.version
     }
+
+    from(project(":common").sourceSets.main.resources)
 }
 
 shadowJar {
@@ -52,4 +54,8 @@ shadowJar {
 
 remapJar {
     inputFile.set shadowJar.archiveFile
+}
+
+tasks.processResources {
+
 }

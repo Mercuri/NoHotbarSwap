@@ -44,6 +44,8 @@ processResources {
     filesMatching('META-INF/neoforge.mods.toml') {
         expand version: inputs.properties.version
     }
+
+    from(project(":common").sourceSets.main.resources)
 }
 
 shadowJar {
